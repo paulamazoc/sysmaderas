@@ -1,0 +1,31 @@
+:root {
+  --main-color: #CDA27F;
+  --second-color: #A77B5E;
+  --third-color: #31322D;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* # Other Section */
+
+div.about {
+  text-align: center;
+  background-color: #528E98;
+  color: #31322D;
+}
+
+div.products-section {
+  text-align: center;
+  background-color: #528E98;
+  color: #31322D;
+}
+
+footer.footer {
+  text-align: center;
+  background-color: #528E98;
+  color: #31322D;
+}
