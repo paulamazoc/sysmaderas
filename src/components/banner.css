@@ -1,0 +1,18 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 450px;
+    background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/wooden-board-background-natural-wood-banner-michal-bednarek.jpg) no-repeat center / cover;
+    position: relative;
+}
+  
+.banner div {
+    width: 100%;
+}
+
+/* @media screen and (min-width: 768px) {
+    .banner {
+        padding-left: 90px;
+    }
+} */

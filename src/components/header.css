@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "futurist";
+    src: url("../css/fonts/futrfw.TTF");
+    src: url("../css/fonts/futrfw.TTF") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    opacity: 0.8;
+    margin-top: 30px;
+    list-style: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a {
+    font-weight: normal;
+    font-family: 'futurist';
+    font-size: 0.55rem;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    margin: 10px;
+    padding: 0.08rem;
+}
+
+@media all and (max-width: 800px) {
+    .menu {
+      /* When on medium sized screens, we center it by evenly distributing empty space around items */
+      justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .menu {
+        /* On small screens, we are no longer using row direction but column 
+        flex-direction: column; */
+    }
+}
+
+.home-logo {
+    display: flex;
+    background: url("../css/images/logo-small-black.png") no-repeat center / cover;
+    padding: 0 1rem;
+    height: 2.2rem;
+    width: 120px;
+    min-width: 50px;
+}

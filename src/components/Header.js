@@ -5,7 +5,12 @@ class Header extends React.Component {
     render() {
         return (
             <nav>
-                <p>Header</p>
+                <ul className="menu">
+                    <li><a href="#"><span className="home-logo"></span></a></li>
+                    <li><a href="#">SOBRE SYS</a></li>
+                    <li><a href="#">NUESTROS PRODUCTOS</a></li>
+                    <li><a href="#">CONTÁCTANOS</a></li>
+                </ul>
             </nav>
         );
     }
