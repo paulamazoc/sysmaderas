@@ -1,11 +1,3 @@
-@font-face {
-    font-family: "futurist";
-    src: url("../css/fonts/futrfw.TTF");
-    src: url("../css/fonts/futrfw.TTF") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 nav {
     position: absolute;
     width: 100%;
