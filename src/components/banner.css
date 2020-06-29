@@ -1,14 +1,37 @@
 .banner {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 450px;
-    background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/wooden-board-background-natural-wood-banner-michal-bednarek.jpg) no-repeat center / cover;
+    justify-content: space-between;
+    color: white;
+    min-height: 470px;
+    background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/wooden-board-background-natural-wood-banner-michal-bednarek.jpg) no-repeat center center / cover;
     position: relative;
+    flex-flow: column;
+    align-items: center;
+    box-sizing: border-box;
 }
-  
-.banner div {
-    width: 100%;
+
+.banner-title {
+    font-size: 3vh;
+    line-height: .9;
+    font-family: 'futurist';
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.banner-logo {
+    background: url("../css/images/logo-medium-white.png") no-repeat center / contain;
+    height: 7.2rem;
+    width: 420px;
+    margin-top: 9rem;
+}
+
+.banner-footer {
+    background: url("../css/images/banner-footer.png") no-repeat center / contain;
+    height: 6.7rem;
+    width: 110%;
+    margin-bottom: -5px;
 }
 
 /* @media screen and (min-width: 768px) {
@@ -16,3 +39,11 @@
         padding-left: 90px;
     }
 } */
+
+@media all and (max-width: 500px) { 
+    .banner-footer { 
+        height: 6.7rem;
+        width: 110%;
+        margin-bottom: -5px; 
+    } 
+}	
