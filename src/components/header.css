@@ -27,6 +27,10 @@ a {
     padding: 0.08rem;
 }
 
+a:hover {
+    color: var(--main-color);
+}
+
 @media all and (max-width: 800px) {
     .menu {
       /* When on medium sized screens, we center it by evenly distributing empty space around items */

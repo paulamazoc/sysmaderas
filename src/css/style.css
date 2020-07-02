@@ -10,21 +10,17 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "futurist";
+  src: url("./fonts/futrfw.TTF");
+  src: url("./fonts/futrfw.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* # Other Section */
 
-div.about {
-  text-align: center;
-  background-color: #528E98;
-  color: #31322D;
-}
-
 div.products-section {
-  text-align: center;
-  background-color: #528E98;
-  color: #31322D;
-}
-
-footer.footer {
   text-align: center;
   background-color: #528E98;
   color: #31322D;
