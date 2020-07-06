@@ -1,49 +1,51 @@
 .banner {
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    min-height: 470px;
-    background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/wooden-board-background-natural-wood-banner-michal-bednarek.jpg) no-repeat center center / cover;
-    position: relative;
-    flex-flow: column;
-    align-items: center;
-    box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  min-height: 470px;
+  background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/wooden-board-background-natural-wood-banner-michal-bednarek.jpg)
+    no-repeat center center / cover;
+  position: relative;
+  flex-flow: column;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .banner-title {
-    font-size: 3vh;
-    line-height: .9;
-    font-family: 'futurist';
-    font-weight: normal;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 0;
+  font-size: 1vw;
+  line-height: 0.9;
+  font-family: "futurist";
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0;
+  width: 80%;
+  text-align: center;
+  @media only screen and (max-width: 600px) {
+    font-size: 10rem;
+  }
 }
 
 .banner-logo {
-    background: url("../css/images/logo-medium-white.png") no-repeat center / contain;
-    height: 7.2rem;
-    width: 420px;
-    margin-top: 9rem;
+  background: url("../css/images/logo-medium-white.png") no-repeat center /
+    contain;
+  height: 7.2rem;
+  width: 30%;
+  margin-top: 9rem;
 }
 
 .banner-footer {
-    background: url("../css/images/banner-footer.png") no-repeat center / contain;
-    height: 6.7rem;
-    width: 110%;
-    margin-bottom: -5px;
+  background: url("../css/images/banner-footer.png") no-repeat center / contain;
+  height: 6.7rem;
+  width: 100%;
+  background-size: 100% 100%;
+  margin-bottom: -20px;
 }
 
-/* @media screen and (min-width: 768px) {
-    .banner {
-        padding-left: 90px;
-    }
-} */
-
-@media all and (max-width: 500px) { 
-    .banner-footer { 
-        height: 6.7rem;
-        width: 110%;
-        margin-bottom: -5px; 
-    } 
-}	
+@media all and (max-width: 500px) {
+  .banner-footer {
+    height: 6.7rem;
+    width: 100%;
+    margin-bottom: -5px;
+  }
+}
