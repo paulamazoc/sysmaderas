@@ -1,36 +1,108 @@
 .about {
     display: flex;
-    justify-content: flex-start;
-    min-height: 450px;
     flex-flow: column;
-    align-items: flex-start;
-    padding: 4rem;
+    justify-content: center;
+    min-height: 450px;
+    padding-top: 100px;
 }
 
 .about-title {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+.about-title-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-line {
+    height: 3px;
+    width: 40px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 5px;
+    margin-top: 0.8rem;
+}
+
+.about-content {
+    display: flex;
+    min-height: 450px;
+    margin-top: 1.6rem;
+}
+
+.about-left-block {
+    flex: 1;
+    display: flex;
+    position: relative;
+    background-color: var(--main-color);
+    align-items: flex-end;
+}
+
+.about-right-block {
+    display: flex;
+    flex: 2;
+    flex-direction: row-reverse;
+    margin-right: 100px;
     position: relative;
 }
 
-.about-title h2 {
-    color: black;
+.about-text {
+    width: 315px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    margin-left: 30px;
 }
 
-.about-title h1 {
-    color: var(--second-color);
+.about-image {
+    background: url('../css/images/about.png') no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
     position: absolute;
-    font-size: 5rem;
-    padding-top: 0;
+    z-index: 1;
 }
 
-.about-paragraph h2 {
-    color: var(--main-color);
-    text-align: right;
+.about-experience-time {
+    display: flex;
+    position: absolute;
+    font-family: 'butler-bold';
+    align-items: center;
+    margin-top: 225px;
 }
 
-.about-paragraph h3 {
-    text-align: right;
+.about-experience-time p {
+    font-size: 1.6rem;
 }
 
-.about-paragraph p {
-    text-align: right;
+.about-experience-time span {
+    font-size: 2.8rem;
+    margin-right: 8px;
+    z-index: 1;
+}
+
+.about-experience-time hr {
+    height: 2px;
+    width: 80px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 22px;
+}
+
+@media (min-width: 768px) {
+    .about-image {
+        width: 500px;
+    }
+
+    .about-text {
+        margin-left: none;
+    }
 }
