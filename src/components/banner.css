@@ -19,10 +19,11 @@
 }
 
 .banner-logo {
-    background: url("../css/images/logo-medium-white.png") no-repeat center / contain;
-    height: 7.2rem;
-    width: 420px;
-    margin-top: 9rem;
+  background: url("../css/images/logo-medium-white.png") no-repeat center /
+    contain;
+  height: 7.2rem;
+  width: 30%;
+  margin-top: 9rem;
 }
 
 /* .banner-footer {

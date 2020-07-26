@@ -1,6 +1,6 @@
-import React from 'react';
-import './banner.css';
-import Header from './Header';
+import React from "react";
+import "./banner.css";
+import Header from "./Header";
 
 class Banner extends React.Component {
     render () {
