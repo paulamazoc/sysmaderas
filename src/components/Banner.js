@@ -5,11 +5,10 @@ import Header from './Header';
 class Banner extends React.Component {
     render () {
         return (
-            <section class="banner">
+            <section className="banner">
                 <Header>{this.props.children}</Header>
                 <span className="banner-logo"></span>
-                <h2 className="banner-title">We are committed to simplicity in form.</h2>
-                <span className="banner-footer"></span>
+                <h2 className="banner-title">-  Echando raíces  -</h2>
             </section>
         );
     }
