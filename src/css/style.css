@@ -1,7 +1,8 @@
 :root {
   --main-color: #CDA27F;
   --second-color: #A77B5E;
-  --third-color: #31322D;
+  --third-color: hsl(72, 5%, 19%);
+  --white: #FFF;
 }
 
 * {
@@ -12,8 +13,24 @@
 
 @font-face {
   font-family: "futurist";
-  src: url("./fonts/futrfw.TTF");
-  src: url("./fonts/futrfw.TTF") format("truetype");
+  src: url("./fonts/futurist.TTF");
+  src: url("./fonts/futurist.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "butler-light";
+  src: url("./fonts/butler-light.woff");
+  src: url("./fonts/butler-light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "butler-bold";
+  src: url("./fonts/butler-bold.woff");
+  src: url("./fonts/butler-bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -22,6 +39,6 @@
 
 div.products-section {
   text-align: center;
-  background-color: #528E98;
+  background-color: white;
   color: #31322D;
 }
