@@ -11,6 +11,11 @@
   box-sizing: border-box;
 }
 
+html {
+  --scroll-behavior: smooth;
+  scroll-behavior: var(--scroll-behavior);
+}
+
 @font-face {
   font-family: "futurist";
   src: url("./fonts/futurist.TTF");

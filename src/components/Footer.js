@@ -5,7 +5,7 @@ import Title from '../shared/Title';
 class Footer extends React.Component {
     render () {
         return (
-            <footer className="container">
+            <footer className="container" id="contact-us">
                 <div className="footer-elements">
                     <Title text="Contáctanos" fontColor="#fff" />
                     <hr className="footer-line"></hr>
