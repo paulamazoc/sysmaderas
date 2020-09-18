@@ -2,7 +2,7 @@ import React from 'react';
 import About from './About';
 import Footer from './Footer';
 import Banner from './Banner';
-import ProductsSection from './ProductsSection';
+import ProductsSection from './productsSection/ProductsSection';
 
 class App extends React.Component {
     render () {
