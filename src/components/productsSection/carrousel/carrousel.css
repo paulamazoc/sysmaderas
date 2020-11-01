@@ -10,13 +10,13 @@
 }
 
 .slick-slide {
-    height: 460px !important;
+    height: 430px !important;
     margin-top: 20px;
 }
 
 .slick-prev:before, .slick-next:before {
     color: black !important;
-    background-color: white !important;
+    background-color: var(--white) !important;
     border-radius: 50%;
 }
 

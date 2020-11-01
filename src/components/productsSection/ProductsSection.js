@@ -43,11 +43,19 @@ class ProductsSection extends React.Component {
             <section className="products" id="products">
                 <div className="products-title">
                     <Title text="Nuestros productos" fontColor="black" />
-                    <hr className="products-line" />
+                    <div className="products-line" />
                 </div>
-                <hr className="products-line products-line-complement" />
+                <div className="products-line products-line-complement" />
                 <div className="products-carrousel-wrapper">
                     <Carrousel cards={this.state.cards} />
+                </div>
+                <div className='products-background-main'>
+                    <div className="products-info-wrapper">
+                        <button className="products-button">Ver más</button>
+                        <p className="products-info">Información sobre calidad, transporte, etc. Información sobre calidad,
+                        transporte, etc. Información sobre calidad, transporte, etc. Información sobre 
+                        calidad, transporte, etc. Información sobre calidad, transporte, etc.</p>
+                    </div>
                 </div>
             </section>
         );

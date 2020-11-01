@@ -40,6 +40,21 @@ html {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "helvetica-light";
+  src: url("./fonts/helvetica-light.ttf");
+  src: url("./fonts/helvetica-light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "myriad-pro";
+  src: url("./fonts/myriad-pro.ttf");
+  src: url("./fonts/myriad-pro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 /* # Other Section */
 
 div.products-section {
